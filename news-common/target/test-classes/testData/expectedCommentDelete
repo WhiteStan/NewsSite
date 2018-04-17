@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <NEWS ID="1" MAINTITLE="some title" SHORTTITLE="some short title" CONTENT="some content"
+          PUBLISHDATE="2016-10-22 12:41:20"/>
+    <NEWS ID="2" MAINTITLE="another title" SHORTTITLE="another short title" CONTENT="another content"
+          PUBLISHDATE="2016-10-22 12:46:31"/>
+    <NEWS ID="3" MAINTITLE="grand new title" SHORTTITLE="grand new short title" CONTENT="grand new content"
+          PUBLISHDATE="2016-10-22 12:47:33"/>
+
+    <SITE_USER ID="1" LOGIN="Jake" PASSWORD="Temp1" ROLE="USER"/>
+    <SITE_USER ID="2" LOGIN="Jeky" PASSWORD="Temp2" ROLE="USER"/>
+
+    <COMMENTS ID="1" CONTENT="some comment" NEWS_ID="1" PUBLISHDATE="2016-10-22 20:47:33" USER_ID="1"/>
+    <COMMENTS ID="2" CONTENT="different comment" NEWS_ID="1" PUBLISHDATE="2016-10-22 20:47:33" USER_ID="2"/>
+</dataset>

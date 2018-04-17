@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <import resource="classpath*:spring.xml"/>
+
+    <bean id="authorDAO"
+          class="by.makouski.news.dao.impl.AuthorDAO">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="commentDAO"
+          class="by.makouski.news.dao.impl.CommentDAO">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="newsDAO"
+          class="by.makouski.news.dao.impl.NewsDAO">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="tagDAO"
+          class="by.makouski.news.dao.impl.TagDAO">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="userDAO"
+          class="by.makouski.news.dao.impl.UserDAO">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+</beans>

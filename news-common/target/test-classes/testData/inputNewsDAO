@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <NEWS ID="1" MAINTITLE="some title" SHORTTITLE="some short title" CONTENT="some content"
+          PUBLISHDATE="2016-10-22"/>
+    <NEWS ID="2" MAINTITLE="another title" SHORTTITLE="another short title" CONTENT="another content"
+          PUBLISHDATE="2016-10-22"/>
+    <NEWS ID="3" MAINTITLE="grand new title" SHORTTITLE="grand new short title" CONTENT="grand new content"
+          PUBLISHDATE="2016-10-22"/>
+
+    <AUTHOR ID="1" NAME="Iman Masterman"/>
+    <AUTHOR ID="2" NAME="Blandus Rida"/>
+    <AUTHOR ID="3" NAME="Moses Othmar" />
+
+    <TAG ID="1" TITLE="funny"/>
+    <TAG ID="2" TITLE="scary"/>
+
+    <M2M_NEWS_AUTHORS ID="1" NEWS_ID="1" AUTHOR_ID="3"/>
+    <M2M_NEWS_AUTHORS ID="2" NEWS_ID="1" AUTHOR_ID="2"/>
+    <M2M_NEWS_AUTHORS ID="3" NEWS_ID="2" AUTHOR_ID="2"/>
+    <M2M_NEWS_AUTHORS ID="4" NEWS_ID="3" AUTHOR_ID="1"/>
+
+    <M2M_NEWS_TAGS ID="1" NEWS_ID="1" TAGS_ID="1"/>
+    <M2M_NEWS_TAGS ID="2" NEWS_ID="2" TAGS_ID="1"/>
+    <M2M_NEWS_TAGS ID="3" NEWS_ID="2" TAGS_ID="2"/>
+</dataset>

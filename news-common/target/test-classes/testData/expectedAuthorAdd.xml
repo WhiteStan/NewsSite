@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <AUTHOR  NAME="Iman Masterman"/>
+    <AUTHOR  NAME="Blandus Rida" />
+    <AUTHOR  NAME="Moses Othmar"  EXPIRED="1"/>
+    <AUTHOR  NAME="Reiner Sergey" EXPIRED="0"/>
+</dataset>
